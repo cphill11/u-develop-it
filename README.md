@@ -7,6 +7,9 @@
 ## Installation
 * MySQL
 * npm
+* express
+* mysql2
+* jest
 
 
 
