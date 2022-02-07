@@ -5,7 +5,9 @@
 
 
 ## Installation
+* MySQL
 * npm
+
 
 
 
