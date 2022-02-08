@@ -5,15 +5,15 @@ VALUES
   ('Git Gurus', 'Need to resolve a merge conflict? The Git Gurus have your back. Nobody knows Git like these folks do.');
 
 
-INSERT INTO candidates (first_name, last_name, industry_connected)
+INSERT INTO candidates (first_name, last_name, industry_connected, party_id)
 VALUES
-  ('Ronald', 'Firbank', 1),
-  ('Virginia', 'Woolf', 1),
-  ('Piers', 'Gaveston', 0),
-  ('Charles', 'LeRoi', 1),
-  ('Katherine', 'Mansfield', 1),
-  ('Dora', 'Carrington', 0),
-  ('Edward', 'Bellamy', 0),
-  ('Montague', 'Summers', 1),
-  ('Octavia', 'Butler', 1),
-  ('Unica', 'Zurn', 1);
+  ('Ronald', 'Firbank', 1, 1),
+  ('Virginia', 'Woolf', 1, 2),
+  ('Piers', 'Gaveston', 0, 3),
+  ('Charles', 'LeRoi', 1, 1),
+  ('Katherine', 'Mansfield', 1, 2),
+  ('Dora', 'Carrington', 0, 3),
+  ('Edward', 'Bellamy', 0, 1),
+  ('Montague', 'Summers', 1, 2),
+  ('Octavia', 'Butler', 1, 3),
+  ('Unica', 'Zurn', 1, 1);
