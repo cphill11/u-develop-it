@@ -5,7 +5,7 @@ const db = require('../../db/connection');
 
 // Get all parties
 // originally app.get('/api/parties')
-router.get('/api/parties', (req, res) => {
+router.get('/parties', (req, res) => {
     const sql = `SELECT * FROM parties`;
     db.query(sql, (err, rows) => {
       if (err) {
@@ -21,7 +21,7 @@ router.get('/api/parties', (req, res) => {
   
 // Get single party
 // originally app.get('/api/party/:id')
-router.get('/api/party/:id', (req, res) => {
+router.get('/party/:id', (req, res) => {
     const sql = `SELECT * FROM parties WHERE id = ?`;
     const params = [req.params.id];
   
@@ -39,7 +39,7 @@ router.get('/api/party/:id', (req, res) => {
   
 // Delete a party
 // originally app.delete ('/api/party/:id')
-router.delete('/api/party/:id', (req, res) => {
+router.delete('/party/:id', (req, res) => {
     const sql = `DELETE FROM parties WHERE id = ?`;
     const params = [req.params.id];
   
