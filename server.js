@@ -1,7 +1,5 @@
 const express = require('express');
 const db = require('./db/connection');
-const inputCheck = require('./utils/inputCheck');
-
 // add near top of file
 const apiRoutes = require('./routes/apiRoutes');
 
@@ -12,7 +10,7 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-// add after middleware
+// add after middleware; use apiRoutes
 app.use('/api', apiRoutes);``
 
 // Not Found response for unmatched routes
