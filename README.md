@@ -5,21 +5,13 @@
 
 
 ## Installation
-* MySQL
-* npm
-* express
-* mysql2
-* jest
-
-
-
 
 ## Usage
 
 
 ## Website
-Github link: https://cphill11.github.io/team-profile-generator/
 
+https://github.com/cphill11/u-develop-it.git
 
 
 ## Image
